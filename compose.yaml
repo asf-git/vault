@@ -2,7 +2,7 @@ version: "3.8"
 services:
   vault:
     container_name: vault
-    image: vassilij1/vault:1.16.0
+    image: vassilij1/vault:1.15.6
     restart: unless-stopped
     ports:
       - 8200:8200
